@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Contact Us | Professional Support & Quick Assistance">
+    <meta property="og:description" content="Submit your details and questions through our secure contact form. Our team will respond quickly with professional support.">
+    <meta property="og:image" content="https://www.google.com/imgres?q=contact%20us%20page&imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FxKcuQQ6qWSs%2Fhq720.jpg%3Fsqp%3D-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD%26rs%3DAOn4CLCi24vyWduxWE6d8WPoxEvi1oVWaQ&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DxKcuQQ6qWSs&docid=YtXvvesP0RK2dM&tbnid=wAt_EcbaI-hbKM&vet=12ahUKEwjxy5fQn5yRAxVdWXADHRsWFxIQM3oECBEQAA..i&w=686&h=386&hcb=2&ved=2ahUKEwjxy5fQn5yRAxVdWXADHRsWFxIQM3oECBEQAA">
+    <meta property="og:url" content="C:\PHPWebTechnology\Webdevelopment\part1\contact.html">
+    <meta property="og:type" content="website">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+
+        form {
+            background: #ffffff;
+            padding: 35px 40px;
+            border-radius: 12px;
+            width: 400px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #1e3c72;
+        }
+
+        .form-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 18px;
+        }
+
+        .form-row label {
+            width: 120px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .form-row input {
+            flex: 1;
+            padding: 10px 12px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            outline: none;
+            font-size: 14px;
+        }
+
+        .form-row input:focus {
+            border-color: #1e3c72;
+            box-shadow: 0 0 4px rgba(30, 60, 114, 0.5);
+        }
+
+        .btn {
+            width: 100%;
+            padding: 12px;
+            margin-top: 20px;
+            background: #1e3c72;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #16305c;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form>
+        <h1>Contact Us</h1>
+
+        <div class="form-row">
+            <label for="username">Name</label>
+            <input type="text" id="username" placeholder="Enter Your Name">
+        </div>
+
+        <div class="form-row">
+            <label for="mobile">Mobile</label>
+            <input type="tel" id="mobile" placeholder="Enter Your Mobile">
+        </div>
+
+        <div class="form-row">
+            <label for="query">Query</label>
+            <input type="text" id="query" placeholder="Enter Your Query">
+        </div>
+
+        <button class="btn">Submit</button>
+    </form>
+
+</body>
+</html>
